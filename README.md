@@ -58,4 +58,16 @@ git commit -m "initial commit"
 git branch -M main
 git remote add origin your_git_url
 git push -u origin main
+
+#creo nuova repo su Github da template
+
+#clono la repo da vscode
+
+composer install 
+
+#copia e rinomina file .env.example in .env
+
+php artisan key:generate
+
+npm install
 ```
